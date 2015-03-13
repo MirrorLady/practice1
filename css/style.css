@@ -1,0 +1,160 @@
+.container
+{ width: 100%; min-width: 1200px;}
+.content-box
+{ width: 960px; margin-left: auto; margin-right: auto; }
+/*  top  */
+.top
+{ width: 100%; height: 50px; background-color: #202020; color: white; overflow: hidden; }
+.top .logo
+{ float: left; font-size: 20px; line-height: 50px;}
+.top ul
+{ float: right; overflow: hidden; margin-top: 10px; line-height: 30px;}
+.top li
+{ float: left; font-size: 14px;  margin-left: 5px;}
+.top li a
+{ padding-left: 7px; padding-right: 7px; height: 30px; display: inline-block}
+.top li:hover
+{ background-color: #e05154;}
+
+/*  banner  */
+.banner
+{ width: 100%; height: 270px; position: relative}
+.banner .banner-box
+{ width: 1200px; height: 270px;  position: relative;}
+/*.banner-box .inner-box*/
+/*{ width: 2400px;}*/
+.banner-box img
+{ width: 1200px; float: left}
+.banner .content-box
+{ width: 960px; height: 270px; position: relative; top: -270px; overflow: hidden}
+.phone
+{ width: 160px; height: 30px; background-color: #e05154; font-size: 14px; color: white; float: right;}
+.phone i
+{ width: 30px; height: 30px; display: inline-block; position: relative; background-color: #bb4244}
+.phone i img
+{ width: 20px; position: relative; top: 3px; left: 5px; }
+.phone span
+{ margin-left: 10px}
+.text
+{ margin-top: 80px;margin-left: 110px}
+.text p
+{ color:white; text-align: center; margin-bottom: 2px}
+.text .p1
+{ line-height: 20px; background-color: #e05154; font-size: 13px; width: 180px;}
+.text .p2
+{ line-height: 30px; width: 280px; background-color: #262625; font-size: 18px}
+.text .p3
+{ line-height: 25px; width: 220px; background-color: #262625; font-size: 14px}
+.banner .content-box .left,.banner .content-box .right
+{ width: 20px;height: 20px; display: inline-block ;background-color: #262625; border-radius: 10px;padding: 2px;
+    cursor: pointer}
+.banner .content-box .left
+{ float: left; margin-top: 130px;}
+.banner .content-box .right
+{ float: right; margin-top: -30px}
+
+/*  info  */
+.info
+{ margin-top: 30px; margin-bottom: 30px; width: 960px;}
+.info .title h3
+{ font-size: 24px; line-height: 25px; font-weight: bold;}
+.info .title .red
+{  color: #e05154;}
+.info .title i
+{ font-style: italic; font-size: 14px; color: #aeaeae; font-family: 'sans-serif'}
+.point
+{ margin-top: 30px; overflow: hidden;}
+.point h4
+{ font-weight: bold; line-height: 30px}
+.point p
+{ font-size: 13px; color: #9b9b9b; line-height: 20px;}
+.point1,.point2,.point3,.point4
+{ width: 230px; float: left;}
+.point1 img,.point2 img,.point3 img,.point4 img
+{ width: 20px; margin-right: 10px}
+.point2 img
+{ position: relative; top: 3px}
+.point1
+{ margin-right: 13px;}
+.point2
+{ margin-right: 14px;}
+.point3
+{ margin-right: 13px;}
+
+/*  trainers*/
+.trainers
+{ width: 100%; height: 300px; background-image: url("../images/bg.png"); background-size: 300px; overflow: hidden}
+.trainer-box
+{ width: 960px;}
+.trainers h4
+{ text-align: center; color: white; font-size: 20px; line-height: 30px; padding: 10px; font-weight: bold}
+.trainer1,.trainer2,.trainer3,.trainer4
+{ float: left;width: 200px;}
+.trainer1
+{ margin-right: 30px;margin-left: 25px;}
+.trainer2
+{ margin-right: 30px;}
+.trainer3
+{ margin-right: 30px;}
+.trainer1 div,.trainer2 div,.trainer3 div,.trainer4 div
+{ padding: 10px; background-color: white; margin-top: -2px;}
+.trainer1 p,.trainer2 p,.trainer3 p,.trainer4 p
+{ font-size: 13px; line-height: 20px; color: #afafaf}
+.trainer1 .name,.trainer2 .name,.trainer3 .name,.trainer4 .name
+{ font-size: 14px; font-weight: bold; color: black}
+
+/*  gallery  */
+.gallery
+{ width: 960px; text-align: center;margin-top: 30px;}
+.gallery h4
+{ font-size: 20px; font-weight: bold;line-height: 30px;}
+.gallery p
+{ width: 520px; font-size: 13px; line-height: 15px; color: #777;margin-bottom: 30px;}
+.gallery img
+{ width: 225px; float: left;margin-bottom: 20px}
+.gallery .margin20
+{ margin-right: 20px;}
+
+/*  price  */
+.price
+{ width: 100%; height: 250px; background-color: #e05154; color: white; }
+.price-box
+{ overflow: hidden; width: 960px}
+.price h4
+{ font-size: 20px; font-weight: bold; text-align: center; padding: 25px;}
+.standard,.advanced,.business
+{ width: 308px; height: 158px; border: 1px solid #e05154; float: left; background-color: #cf4447; overflow: hidden}
+.standard p,.advanced p,.business p
+{ color: white}
+.standard:hover,.advanced:hover,.business:hover
+{ border: 1px solid white; background-color: #e05154}
+.standard:hover .price-left,.advanced:hover .price-left,.business:hover .price-left
+{ border-right: 1px solid #fff}
+.standard,.advanced
+{ margin-right: 15px;}
+.price-left
+{ width: 100px; margin-top: 35px; border-right: 1px solid #e05154}
+.price-left p
+{ font-size: 14px; text-align: center; line-height: 30px; font-weight: bold}
+.price-left img
+{ width: 30px;  margin-left: 30px;}
+.price-left .price-tag
+{ font-size: 20px; font-weight: bold}
+.price-tag sup
+{ font-size: 12px;}
+.price-left,.price-right
+{ float: left; }
+.price-right
+{margin-top: 20px; margin-left: 20px}
+.price-right p
+{ font-size: 13px; line-height: 25px}
+
+/*  partners*/
+.partners
+{ width: 960px; text-align: center}
+.partners h4
+{ text-align: center; font-size: 20px; font-weight: bold;margin-top: 30px; margin-bottom: 30px; overflow: hidden}
+.partners img
+{ height: 25px; margin-right: 20px;}
+.goTop
+{ color: #e05154; text-decoration: underline; cursor: pointer;float: right; font-size: 14px;}
